@@ -1,0 +1,97 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: Barlow, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*backgroundColor: white;*/
+  }
+
+  
+header {
+    /*display: flex;*/
+    padding: 2%;
+}
+
+section {
+    padding: 10%;
+    align-self: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    background-color: snow;
+    font-size: 14px;
+    color: gray;
+}
+
+.footer-grid {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.italic a:hover {
+    font-style: italic;
+    color: green;
+}
+
+.underline a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.colortext {
+    color: purple;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+#links {
+    float: right;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 50px;
+}
+
+#about-page {
+    display: inline-flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+#about-text {
+    display: grid;
+    grid-auto-flow: row;
+    /*grid-row-gap: 2px;*/
+    font-size: 20px;
+    width: 50%;
+}
+
+.large-text {
+    font-size: 40px;
+}
+
+#index-page {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
